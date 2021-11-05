@@ -1,0 +1,89 @@
+    /* Section About us */
+
+    #aboutus .aboutBox {
+    margin-right: 30px;
+}
+
+    #aboutus .aboutBox:last-child{
+    margin-right: 0px;
+}
+
+    #aboutus .title {
+        text-align: center;
+        font-size: 3.0rem;
+        font-weight: bolder;
+    }
+
+        #aboutus .aboutIcon {
+            font-size: 5.0rem;
+            line-height: 0.5;
+            margin-bottom: 40px;
+            color: blueviolet;
+            text-align: center;
+            text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        #aboutus .aboutBtn {
+            margin: auto;
+            margin-top: 50px;
+            font-size: 1.2rem;
+            text-align: center;
+        }
+
+        #aboutus .aboutBtn a {
+            color: white;
+            text-decoration: none;
+            width: 120px;
+            border-radius: 15px;
+            padding: 12px 20px;
+            background-color: royalblue;
+            transition: 0.5s;
+        }
+    
+        #aboutus .aboutBtn a:hover {
+            background-color: salmon;
+            transition: 0.5s;
+        }
+
+        /* Extra small devices (phones, 600px and down) */
+    @media only screen and (max-width: 600px) {
+    #aboutus .aboutBox {
+        padding: 20px;
+        margin: 0px;
+    }
+
+        #aboutus .aboutIcon {
+            font-size: 8.0rem;
+        }
+
+        #aboutus .abouTxt {
+            font-size: 1.5rem;
+        }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+    @media only screen and (min-width: 600px) {
+    #aboutus .aboutBox {
+        padding: 20px;
+        margin: 0px;
+    }
+
+    #aboutus .aboutIcon {
+        font-size: 8.0rem;
+    }
+
+    #aboutus .abouTxt {
+        font-size: 1.5rem;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+    @media only screen and (min-width: 768px) {
+    font-size: 1.0rem;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+    @media only screen and (min-width: 992px) {}}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {}
